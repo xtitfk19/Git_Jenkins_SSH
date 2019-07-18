@@ -1,0 +1,17 @@
+#配置账号名
+git config --global user.name 'chiu-01'
+#配置邮箱
+git config --global user.email 'chiu142857@126.com'
+#查看配置
+git config -l
+#指定目录
+git init
+#本地目录与远端项目建立连接
+git remote add origin https://github.com/ChiuPro/Test_Project.git
+#查看
+git status
+#推送本地数据到远端
+git add *
+git commit -m 'first commit'
+#推送到远端
+git push -u origin master
