@@ -1,17 +1,18 @@
-#ÅäÖÃÕËºÅÃû
+#é…ç½®è´¦å·å
 git config --global user.name 'chiu-01'
-#ÅäÖÃÓÊÏä
+#é…ç½®é‚®ç®±
 git config --global user.email 'chiu142857@126.com'
-#²é¿´ÅäÖÃ
+#æŸ¥çœ‹é…ç½®
 git config -l
-#Ö¸¶¨Ä¿Â¼
+#æŒ‡å®šç›®å½•
 git init
-#±¾µØÄ¿Â¼ÓëÔ¶¶ËÏîÄ¿½¨Á¢Á¬½Ó
+#æœ¬åœ°ç›®å½•ä¸è¿œç«¯é¡¹ç›®å»ºç«‹è¿æ¥
 git remote add origin https://github.com/ChiuPro/Test_Project.git
-#²é¿´
+#æŸ¥çœ‹
 git status
-#ÍÆËÍ±¾µØÊı¾İµ½Ô¶¶Ë
+#æ¨é€æœ¬åœ°æ•°æ®åˆ°è¿œç«¯
 git add *
 git commit -m 'first commit'
-#ÍÆËÍµ½Ô¶¶Ë
+#æ¨é€åˆ°è¿œç«¯
 git push -u origin master
+#edit by Jack
